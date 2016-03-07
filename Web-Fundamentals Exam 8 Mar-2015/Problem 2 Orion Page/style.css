@@ -1,0 +1,179 @@
+ body, div, header, h1, h2, h3, h4, h5, h6, main, section, article, footer, nav, p, a, figure, img, button {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+ }
+ @font-face {
+  font-family: 'Oleo Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oleo Script'), local('OleoScript-Regular'), url(http://fonts.gstatic.com/s/oleoscript/v5/_weQNDK6Uf40CiGFKBBUjiYE0-AqJ3nfInTTiDXDjU4.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Oleo Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oleo Script'), local('OleoScript-Regular'), url(http://fonts.gstatic.com/s/oleoscript/v5/_weQNDK6Uf40CiGFKBBUjo4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+ body {
+	font-family: Calibri, Arial, sans-serif;
+	font-size: 12px;
+	background-color: #50247d;
+ }
+ #wrapper {
+	width: 1000px;
+	margin: 0 auto;
+ }
+#wrapper header {
+	width: 100%;
+	height: 240px;
+	background-image: url("images/orion-gas-and-star-bgr.jpg");
+	border-bottom: 8px solid #35a4d3;
+	padding: 20px;
+	text-align: center;
+}
+	#wrapper header h1 {
+		color:#fff;
+		font-family: "Oleo Script";
+		font-size: 68px;
+		font-weight: lighter;
+	}
+	#wrapper header h5 {
+		color:#fff;
+		font-size: 26px;
+		margin-top: -18px;
+		margin-bottom: 30px;
+		font-weight: lighter;
+	}
+	#wrapper header nav ul {
+		list-style-type: none;
+		display: flex;
+		justify-content: center;
+	}
+		#wrapper header nav ul a li {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			text-decoration: none;
+			width: 100px;
+			height: 40px;
+			background-color: #fff;
+			border: 1px solid #c6c2c3;
+			margin: 5px;
+		}
+		#wrapper header nav ul a li:hover {
+			background-color: #36a4d5;
+			border: 1px solid #36a4d5;
+			cursor: pointer;
+		}
+		#wrapper header nav a {
+			text-decoration: none;
+			color:  #50247d;
+			text-transform: uppercase;
+			font-size: 18px;
+			font-weight: bold;
+		}
+		#wrapper header nav ul a:hover {
+			color: #fff;
+		}
+	#wrapper main {
+		margin-top: 30px; 
+		border-top:  8px solid #865ab3;
+		border-bottom: 8px solid #35a4d3;
+		background-color: #eae7ee;
+		display: flex;
+		justify-content: space-between;
+		padding: 30px;
+	}
+		#wrapper main #left {
+			width: 48%;
+			height: 478px;
+			display: flex;
+			position: relative;
+		}
+			#wrapper main #left button:first-child {
+					background-color: #38a3d7;
+					color: #fff;
+					width: 110px;
+					height: 33px;
+					border: none;
+					text-transform: uppercase;
+					position: absolute;
+					top: 0;
+					right: 0;
+			}
+			#wrapper main #left button:last-child {
+				background-color: #875bb2;
+				border: none;
+				width:280px;
+				height: 35px;
+				color: #fff;
+				position: absolute;
+				right: 0;
+				bottom: 0;
+			}
+			#wrapper main #left button:last-child:hover {
+				background-color: #50247d;
+				cursor: pointer;
+			}
+			#wrapper main #left article {
+				background-color: #fff;
+				padding: 30px;
+			}
+				#wrapper main #left article h2 {
+					font-family: "Oleo Script";
+					font-size: 48px;
+				}
+				#wrapper main #left article h4 {
+					font-size: 26px;
+					margin-bottom: 20px;
+				}
+				#wrapper main #left article p {
+					margin-bottom: 10px;
+				}
+		#wrapper main #right {
+			width: 48%;
+			display: flex;
+			flex-flow: row wrap;
+			justify-content: space-between;
+		}
+			#wrapper main #right article {
+				width: 46%;
+				background-color: #fff;
+				margin-bottom: 15px;
+			}
+				#wrapper main #right article figure {
+					position: relative;
+				}
+				#wrapper main #right article figure img{
+					width: 100%;
+				}
+				#wrapper main #right article figure button{
+					background-color: #38a3d7;
+					color: #fff;
+					width: 110px;
+					height: 33px;
+					border: none;
+					text-transform: uppercase;
+					position: absolute;
+					top: 0;
+					right: 0;
+				}
+			#wrapper main #right article h3{
+				color: #36a4d5;
+				margin: 10px;
+			}
+			#wrapper main #right article p {
+				margin: 10px;
+			}
+			
+		#wrapper footer {
+			height: 70px;
+			padding: 30px 20px;
+			
+		}
+		#wrapper footer p {
+			color: #fff;
+		}
