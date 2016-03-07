@@ -1,0 +1,12 @@
+body {
+	background-color: #aed8e6;
+}
+img {
+	width: 150px;
+	border: 1px solid black;
+}
+#doge-data, #friends-list{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
