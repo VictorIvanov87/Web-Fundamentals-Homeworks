@@ -1,0 +1,50 @@
+footer {
+	background-color: #000; 
+	width: 100%;
+	height: 188px;
+	color: #fff;
+	font-family: "Trebuchet MS";
+	font-weight: lighter;
+}
+footer ul {
+	list-style-type: none;
+}
+footer a {
+	text-decoration: none;
+	color: #fff;
+}
+footer table th,td{
+	width: 20%;
+	vertical-align: top;
+}
+footer table th {
+	text-align: left;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+footer #footer-left {
+	padding: 30px;
+	font-family: "Trebuchet MS";
+	font-weight: lighter;
+	font-size: 20px;
+	text-align: left;
+}
+footer #footer-right {
+	color: #afafaf;
+	padding: 30px;
+	font-size: 14px;
+	text-align: center;
+}
+.gray {
+	color: #afafaf;
+}
+footer>p {
+	color: #777;
+	font-style: italic;
+	position: absolute;
+	display: inline-block;
+	margin-top: -50px;
+}
+footer>p:before{
+	content: url("images/twitter-icon.png");
+}

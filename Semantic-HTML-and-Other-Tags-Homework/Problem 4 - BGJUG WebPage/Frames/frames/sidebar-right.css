@@ -1,0 +1,20 @@
+#right-aside {
+	margin-top: 92px;
+	border-top: 1px solid #afafaf;
+	border-bottom: 1px solid #afafaf;
+	display: inline-block;
+}
+	#right-aside p{
+		font-family: "Trebuchet MS";
+		color: #afafaf;
+		text-transform: uppercase;
+	}
+	#right-aside p:first-child{
+		margin-top: -22px;
+	}
+	#right-aside select{
+		margin-top: 15px;;
+	}
+	#right-aside p:last-child{
+		margin-top: 15px;
+	}

@@ -1,0 +1,193 @@
+* {
+	margin: 0;
+	padding:0;
+}
+#wrapper{
+	width:60%;
+	margin: 0 auto;
+	padding: 20px 50px;
+}
+/*-----------------start of header-----------------*/
+h1 {
+	margin: 0 35px;
+	font-family: "Trebuchet MS";
+	font-weight: lighter;
+}
+header nav {
+	margin-top: 88px;
+	float: left;
+	border-bottom: 1px solid #afafaf;
+	width: 100%;
+}
+	header nav ul {
+		list-style-type: none;
+		display: inline;
+	}
+		header nav ul li {
+			display: inline;
+			margin-right: 105px;
+			margin-left: 20px;
+		}
+			header nav ul li a{
+				text-decoration: none;
+				text-transform: uppercase;
+				color: #777;
+				font-size: 14px;
+				font-family: Arial;
+			}
+	header nav input {
+		float: right;
+		margin-bottom: 10px;
+		display: inline;
+	}
+/*-----------------end of header-----------------*/
+
+/*-----------------start of left-aside-----------------*/
+#left-aside ul{
+	float: left;
+	list-style-type: none;
+	width: 17%;
+	border-top: 1px solid #afafaf;
+	margin-top: 92px;
+	font-family: "Trebuchet MS";
+	display: inline-block;
+}
+	#left-aside ul li{
+		margin-left: 10px;
+		margin-top: 10px;
+		margin-right: 50px;
+	}
+		#left-aside ul li a{
+			text-decoration: none;
+			color: #3172a5;
+		}
+/*-----------------end of left-aside-----------------*/
+
+/*-----------------start of right-aside-----------------*/
+#right-aside {
+	float: right;
+	width: 17%;
+	margin-top: 92px;
+	border-top: 1px solid #afafaf;
+	border-bottom: 1px solid #afafaf;
+	display: inline-block;
+}
+	#right-aside p{
+		font-family: "Trebuchet MS";
+		color: #afafaf;
+		text-transform: uppercase;
+	}
+	#right-aside p:first-child{
+		margin-top: -22px;
+	}
+	#right-aside select{
+		margin-top: 15px;;
+	}
+	#right-aside p:last-child{
+		margin-top: 15px;
+	}
+/*-----------------end of right-aside-----------------*/
+
+/*-----------------start of main-----------------*/
+main.clear {
+    clear: both;
+}
+main {
+	width: 57%; 
+	margin: 50px;
+	display: inline-block;
+	border-bottom: 1px solid #afafaf;
+}
+main article {
+	margin-bottom: 35px;
+}
+main h2 {
+	font-family: "Trebuchet MS";
+	font-weight: lighter;
+	margin-bottom: 4px;
+}
+main article p:nth-child(2) {
+	color: #afafaf;
+	font-size: 9px;
+}
+main article p:nth-child(2) a {
+	color: #777;
+	font-size: 13px;
+}
+main article p:nth-child(2) time {
+	color: #777;
+	font-size: 15px;
+}
+main article p:nth-child(3) {
+	font-family: "Trebuchet MS";
+	line-height: 22px;
+	margin: 35px 0;
+}
+main article a {
+	color: #3172a5;
+	font-family: "Trebuchet MS";
+	text-decoration: none;
+}
+#previous-entries {
+	color: #3172a5;
+	font-family: "Trebuchet MS";
+	text-decoration: none;
+	display: inline-block;
+	position: absolute;
+	padding-top: 76px;
+}
+/*-----------------end of main-----------------*/
+
+/*-----------------start of footer-----------------*/
+footer {
+	background-color: #000; 
+	margin-top: 130px;
+	width: 100%;
+	height: 188px;
+	color: #fff;
+	font-family: "Trebuchet MS";
+	font-weight: lighter;
+}
+footer ul {
+	list-style-type: none;
+}
+footer a {
+	text-decoration: none;
+	color: #fff;
+}
+footer table th,td{
+	width: 20%;
+	vertical-align: top;
+}
+footer table th {
+	text-align: left;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+footer #footer-left {
+	padding: 30px;
+	font-family: "Trebuchet MS";
+	font-weight: lighter;
+	font-size: 20px;
+	text-align: left;
+}
+footer #footer-right {
+	color: #afafaf;
+	padding: 30px;
+	font-size: 14px;
+	text-align: center;
+}
+.gray {
+	color: #afafaf;
+}
+footer>p {
+	color: #777;
+	font-style: italic;
+	position: absolute;
+	display: inline-block;
+	margin-top: -30px;
+}
+footer>p:before{
+	content: url("images/twitter-icon.png");
+}
+/*-----------------end of footer-----------------*/

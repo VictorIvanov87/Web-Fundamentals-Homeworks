@@ -1,0 +1,46 @@
+main.clear {
+    clear: both;
+}
+main {
+	margin: 0 50px;
+	display: inline-block;
+	border-bottom: 1px solid #afafaf;
+}
+main article {
+	margin-bottom: 35px;
+}
+main h2 {
+	font-family: "Trebuchet MS";
+	font-weight: lighter;
+	margin-bottom: 4px;
+}
+main article p:nth-child(2) {
+	color: #afafaf;
+	font-size: 9px;
+}
+main article p:nth-child(2) a {
+	color: #777;
+	font-size: 13px;
+}
+main article p:nth-child(2) time {
+	color: #777;
+	font-size: 15px;
+}
+main article p:nth-child(3) {
+	font-family: "Trebuchet MS";
+	line-height: 22px;
+	margin: 20px 0;
+}
+main article a {
+	color: #3172a5;
+	font-family: "Trebuchet MS";
+	text-decoration: none;
+}
+#previous-entries {
+	color: #3172a5;
+	font-family: "Trebuchet MS";
+	text-decoration: none;
+	display: inline-block;
+	position: absolute;
+	padding-top: 50px;
+}

@@ -1,0 +1,15 @@
+var ctx = document.getElementById("my-canvas").getContext("2d");
+ctx.beginPath();
+ctx.lineWidth="3";
+ctx.strokeStyle="#ff0000";
+ctx.setLineDash([3,3]);
+ctx.rect(0,0,270,250);
+ctx.stroke();
+ctx.font = "bold 30px Arial";
+ctx.textAlign = "center";
+ctx.fillText("I love JavaScript", 135, 50);
+ctx.fillStyle = "#f1da4e";
+ctx.fillRect(67.5, 80, 135, 135);
+ctx.font = "bold 85px Trebuchet MS";
+ctx.fillStyle = "#32342f";
+ctx.fillText("JS", 150, 205);

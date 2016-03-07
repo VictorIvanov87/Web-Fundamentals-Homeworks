@@ -1,0 +1,31 @@
+h1 {
+	margin: 0 35px;
+	font-family: "Trebuchet MS";
+	font-weight: lighter;
+}
+header nav {
+	float: left;
+	border-bottom: 1px solid #afafaf;
+	width: 100%;
+}
+	header nav ul {
+		list-style-type: none;
+		display: inline;
+	}
+		header nav ul li {
+			display: inline;
+			margin-right: 105px;
+			margin-left: 20px;
+		}
+			header nav ul li a{
+				text-decoration: none;
+				text-transform: uppercase;
+				color: #777;
+				font-size: 14px;
+				font-family: Arial;
+			}
+	header nav input {
+		float: right;
+		margin-bottom: 10px;
+		display: inline;
+	}
