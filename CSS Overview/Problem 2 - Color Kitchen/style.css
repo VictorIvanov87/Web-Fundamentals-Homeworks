@@ -1,0 +1,151 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-image: url("colorful_dots_on_black.jpg");
+	font-family: Verdana;
+}
+body>header:first-child{
+	color: #ff0;
+	font-size: 55px;
+	font-weight: bold;
+	text-align: center;
+	background: linear-gradient(to right,red,red 33.3%,green 33.3%,green 67.7%,blue 67.7%);
+	height: 100px;
+}
+body>aside{
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 30px;
+	width:17%;
+    min-width:170px;
+    border-radius: 20px;
+    float:left;
+	margin-top: 40px;
+    margin-left:2%;
+    padding: 20px;
+}
+body>aside>nav>ul{
+	margin: 20px;
+	list-style-type: none;
+}
+ul li a{
+	color: black;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 33px;
+}
+ul li a:before {
+	content: url('check.png');
+	margin-right: 10px;
+}
+ul li a:visited {
+	color: gray;
+}
+ul li:first-child :hover {
+	background-color: #f00;
+	padding: 7px;
+	border-radius: 10px;
+}
+ul li:nth-child(2) :hover {
+	background-color: #ffa500;
+	padding: 7px;
+	border-radius: 10px;
+}
+ul li:nth-child(3) :hover {
+	background-color: #ff0;
+	padding: 7px;
+	border-radius: 10px;
+}
+ul li:nth-child(4) :hover {
+	background-color: #008000;
+	padding: 7px;
+	border-radius: 10px;
+}
+ul li:nth-child(5) :hover {
+	background-color: #00f;
+	padding: 7px;
+	border-radius: 10px;
+}
+ul li:last-child :hover {
+	background-color: #800080;
+	padding: 7px;
+	border-radius: 10px;
+}
+body>aside>nav>header {
+	text-decoration: underline;
+	font-size: 25px;
+}
+body>section>article {
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 30px;
+	padding: 20px;
+	margin-bottom: 12px;
+}
+body>section {
+	width:70%;
+    min-width:700px;
+    float:right;
+    margin-top: 40px;
+	margin-right: 5%;
+}
+body>section a {
+	color: #808080;
+    font-style: italic;
+}
+footer {
+	margin-top: 10px;
+}
+body>section>article>div:first-letter{
+	font-size: 66px;
+	font-style: italic;
+}
+div:first-line {
+font-style: italic;
+}
+body>section>article:last-child>span:lang(la) {
+	font-style: italic;
+	color: #00008b;
+}
+#webColors{
+	color: #fff;
+	background-color: #f00;
+	font-size: 32px;
+	padding: 22px 15px 22px 15px;
+	border-radius: 10px;
+}
+#webSafeColors{
+	color: #000;
+	background-color: #ffa500;
+	font-size: 32px;
+	padding: 22px 15px 22px 15px;
+	border-radius: 10px;
+}
+#RGB{
+	color: #000;
+	background-color: #ff0;
+	font-size: 32px;
+	padding: 22px 15px 22px 15px;
+	border-radius: 10px;
+}
+#RGBA{
+	color: #fff;
+	background-color: #008000;
+	font-size: 32px;
+	padding: 22px 15px 22px 15px;
+	border-radius: 10px;
+}
+#HSLHSV{
+	color: #fff;
+	background-color: #00f;
+	font-size: 32px;
+	padding: 22px 15px 22px 15px;
+	border-radius: 10px;
+}
+#lorem{
+	color: #fff;
+	background-color: #800080;
+	font-size: 32px;
+	padding: 22px 15px 22px 15px;
+	border-radius: 10px;
+}

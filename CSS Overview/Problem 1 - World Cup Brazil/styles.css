@@ -1,0 +1,133 @@
+#wrapper {
+	height: 441px;
+	width: 1215px;
+	background-color: #00923e;
+	font-family: Verdana;
+	padding-top: 18px;
+}
+.home{
+	text-align: right;
+}
+.guest{
+	text-align: left;
+}
+.center{
+	text-align: center;
+}
+.home.bra:after{
+	content: url('images/brasil.jpg');
+	margin: 27px 9px 19px 7px;
+}
+.guest.mex:before{
+	content: url('images/mexico.jpg');
+	margin: 27px 7px 19px 9px;
+}
+.home.spa:after{
+	content: url('images/spain.jpg');
+	margin: 27px 9px 19px 7px;
+}
+.guest.neth:before{
+	content: url('images/neth.jpg');
+	margin: 27px 7px 19px 9px;
+}
+.home.ita:after{
+	content: url('images/italy.jpg');
+	margin: 27px 9px 19px 7px;
+}
+.guest.eng:before{
+	content: url('images/england.jpg');
+	margin: 27px 7px 19px 9px;
+}
+.home.arg:after{
+	content: url('images/argentina.jpg');
+	margin: 27px 9px 19px 7px;
+}
+.guest.bos:before{
+	content: url('images/bosnia.jpg');
+	margin: 27px 7px 19px 9px;
+}
+.home.ger:after{
+	content: url('images/germany.jpg');
+	margin: 27px 9px 19px 7px;
+}
+.guest.por:before{
+	content: url('images/portugal.jpg');
+	margin: 27px 7px 19px 9px;
+}
+.closed{
+	background: url('images/closed.png') no-repeat;
+	height: 50px;
+	width: 50px;
+	border: none;
+	display: block;
+}
+.open{
+	background: url('images/open.png') no-repeat;
+	height: 50px;
+	width: 50px;
+	border: none;
+	display: block;
+}
+select, p {
+	display: inline;
+} 
+.expired{
+	color: #f00;
+	width: 40px;
+	height: 32px;
+}
+.active{
+	color: #090;
+	width: 40px;
+	height: 32px;
+}
+form {
+	margin: 0 auto;
+	
+}
+#top-left-td {
+	border-radius: 13px 0 0 0;
+	-moz-border-radius: 13px 0 0 0;
+    -webkit-border-radius: 13px 0 0 0;
+}
+#top-right-td {
+	border-radius: 0 13px 0 0;
+	-moz-border-radius: 0 13px 0 0;
+    -webkit-border-radius: 0 13px 0 0;
+}
+#bottom-right-td {
+	border-radius: 0 0 13px 0;
+	-moz-border-radius: 0 0 13px 0;
+    -webkit-border-radius: 0 0 13px 0;
+}
+#bottom-left-td {
+	border-radius: 0 0 0 13px;
+	-moz-border-radius: 0 0 0 13px;
+    -webkit-border-radius: 0 0 0 13px;
+}
+table {
+	width: 1170px;
+	height: 400px;
+	margin: auto;
+	border-spacing: 0;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+	
+}
+td, th {
+    border: 1px solid black;
+	padding: 10px;
+}
+td {
+	font-size: 18px;
+}
+tbody tr:nth-child(odd) {
+	background-color: #fff;
+}
+tbody tr:nth-child(even) {
+	background-color: #c8c8c8;
+}
+thead {
+	font-size: 22px;
+	background-color: #f8c711;
+}
