@@ -1,0 +1,30 @@
+<!DOCTYPE hmtl>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Simple form</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="wrapper">
+		<h1>Enter the system</h1>
+		<p>It is necessary to login in Your account in order to sign in for a course.</p>
+		<form id="left">
+			<label>are you new? <span>register</span></label>
+			<input type="text" placeholder="User name" pattern="[A-Za-z]+" required/>
+			<input type="email" placeholder="Email" required/>
+			<input type="password" placeholder="Password" required/>
+			<input type="password" placeholder="Confirm password" required/>
+			<input type="submit" value="Register"/>
+		</form>
+		<form id="right">
+			<label>alredy a student? login</span></label>
+			<input type="text" placeholder="User name" pattern="[A-Za-z]+" required/>
+			<input type="password" placeholder="Password" required/>
+			<input type="checkbox" value="Remmber me?"/><span>Remmber me?</span>
+			<input type="submit" value="Login"/>
+			<a href="#">Forgot Password</a>
+		</form>
+	</div>
+</body>
+</html>

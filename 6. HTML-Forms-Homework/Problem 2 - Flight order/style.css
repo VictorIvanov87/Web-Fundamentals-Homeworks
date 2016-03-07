@@ -1,0 +1,70 @@
+#wrapper {
+	width: 530px;
+	height: 350px;
+	background-color: ffc0cb;
+	padding: 15px;
+	font-family: Verdana;
+}
+h1 {
+	text-transform: uppercase;
+	font-size: 36px;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+#left {
+	background-color: ffc0cb;
+	float: left;
+	width: 255px;
+	height: 300px;
+	margin-top: 0;
+	padding: 0;
+}
+#right {
+	background-color: ffc0cb;
+	float: right;
+	width: 255px;
+	height: 300px;
+	margin-top: 0;
+	padding: 0;
+}
+label {
+	display: block;
+	font-style: italic;
+	margin-top: 5px;
+}
+select, input {
+	margin-top: 5px;
+	height: 25px;
+	width: 100%;
+	font-size: 18px;
+}
+#wrapper label:nth-child(3){
+	margin-top: 20px;
+}
+.a, .b, .c {
+	display: inline-block;
+	width: 81px;
+}
+#prefer-directs {
+	display: inline;
+	height: 15px;
+	width: 15px;
+	margin-bottom: 0px;
+}
+#left select {
+	margin-bottom: 8px;
+}
+#right span {
+	font-size: 12px;
+}
+#right> :last-child {
+	margin-top: 10px;
+	height: 40px;
+	font-size: 22px;
+}
+.time-interval input {
+	display: inline;
+	width: 124px;
+}
+	

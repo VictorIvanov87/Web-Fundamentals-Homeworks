@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Fakebook</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="wrapper">
+		<h1>fakebook<span> ®</span><h1>
+		<h2>Registration</h2>
+		<h5>It is safe and it will always be!</h5>
+		<div id="left">
+			<h5><span>None-Important Information</span></h5>
+			<form>
+				<input type="text" placeholder="First Name" pattern="[A-Za-z]+" />
+				<input type="text" placeholder="Last Name" pattern="[A-Za-z]+" />
+				<input type="email" placeholder="Your Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" />
+				<input type="text" placeholder="Phone Number" pattern="[0-9]+" />
+				<input type="password" placeholder="Your Password" pattern="[A-Za-z]+" />
+				<input type="text" placeholder="Website" pattern="https?://.+" />
+				<label for="birthday">Birthday</label>
+				<input type="date" />
+				<br />
+				<input class="radio" type="radio" name="sex" id="female" value="female">
+				<label class="radio-label" for="male">Female</label>
+				<input class="radio" type="radio" name="sex" id="male" value="male">				
+				<label class="radio-label" for="female">Male</label>
+				<input class="radio" type="radio" name="sex" id="other" value="other">
+				<label class="radio-label" for="female">Other</label>
+				<button type="reset">Clear Form</button>
+			</form>
+		</div>
+		<div id="right">
+			<h5><span>Important Information *required</span></h5>
+			<form>
+				<select>
+					<option value="" selected>Country</option>
+					<option value="Bulgaria">Bulgaria</option>
+					<option value="USA">USA</option>
+					<option value="Russia">Russia</option>
+					<option value="France">France</option>
+				</select>
+				<input type="text" placeholder="Village" pattern="[A-Za-z]+" />
+				<input type="text" placeholder="District" pattern="[A-Za-z]+" />
+				<input type="text" placeholder="Street" pattern="[A-Za-z]+" />
+				<input class="shorter" type="text" placeholder="Nr" pattern="[A-Za-z]+" />
+				<input class="shorter" type="text" placeholder="Floor" pattern="[A-Za-z]+" />
+				<input class="shorter" type="text" placeholder="Ap Nr" pattern="[A-Za-z]+" />
+				<label>Door color</label>
+				<input type="color" />
+				<input type="text" placeholder="Water Mtr" pattern="[0-9]+" />
+				<select>
+					<option value="" selected>Aunt' Pantis Size</option>
+					<option value="22">22</option>
+					<option value="47">47</option>
+					<option value="53">53</option>
+					<option value="82">82</option>
+				</select>
+				<label>More personal information</label>
+				<textarea placeholder="Give us more information"></textarea>
+				<button type="submit">Register</button>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
