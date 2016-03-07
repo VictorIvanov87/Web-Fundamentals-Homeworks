@@ -1,0 +1,78 @@
+<!DOCTYPE hmtl>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>PowerPointSlide</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div id="wrapper">
+		<p>Step 1: Your details<p>
+		<div>
+			<form>
+				<legend>Name</legend>
+				<input type="text" placeholder="First and last name" />
+			</form>
+		</div>
+		<div>
+			<form>
+				<legend>Email</legend>
+				<input type="text" placeholder="example@gomain.com" />
+			</form>
+		</div>		
+		<div>
+			<form>
+				<legend>Phone</legend>
+				<input type="text" placeholder="eg. +447500000000" />
+			</form>
+		</div>
+		<p>Step 2: Delivery address<p>
+		<div id="address">
+			<form>
+				<legend>Address</legend>
+				<textarea></textarea>
+			</form>
+		</div>
+		<div>
+			<form>
+				<legend>Post code</legend>
+				<input type="text" placeholder="example@gomain.com" />
+			</form>
+		</div>		
+		<div>
+			<form>
+				<legend>Country</legend>
+				<input type="text" placeholder="eg. +447500000000" />
+			</form>
+		</div>
+		<p>Step 3: Card details<p>
+		<div>
+			<form id="card-type">
+				<legend class="card-type-legend">Card type</legend>
+				<input class="card-type-input" type="radio" name="card-type" value="visa" /><p id="visa">Visa</p>
+				<input class="card-type-input" type="radio" name="card-type" value="amex" /><p id="amex">AmEx</p>
+				<input class="card-type-input" type="radio" name="card-type" value="mastercard" /><p id="mastercard">Mastrecard</p>
+			</form>
+		</div>
+		<div>
+			<form>
+				<legend>Card number</legend>
+				<input type="text" />
+			</form>
+		</div>
+		<div>
+			<form>
+				<legend>Security-code</legend>
+				<input type="text" />
+			</form>
+		</div>		
+		<div>
+			<form>
+				<legend>Name on card</legend>
+				<input type="text" placeholder="exactly name as on the card" />
+			</form>
+		</div>
+		<button id="buy-it"><a href="#">buy it!</a></button>
+	</div>
+</body>
+</html>

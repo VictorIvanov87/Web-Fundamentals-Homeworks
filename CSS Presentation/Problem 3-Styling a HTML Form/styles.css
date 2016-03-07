@@ -1,0 +1,96 @@
+#wrapper {
+	width: 400px;
+	height: 680px;
+	background-image: url("images/formBackground.jpg");
+	border-radius: 5px;	
+	padding: 10px 20px;
+}
+#wrapper>p {
+	font-family: Arial;
+	font-weight: bold;
+	color: white;
+	font-size: 19px;
+	margin-top: 12px;
+	margin-bottom: 6px
+}
+#wrapper>div {
+	background-color: rgba(170, 170 ,170 ,0.5);
+	width: 100%;
+	border: 1px solid white;
+	border-radius: 5px;
+	margin-top: 3px;
+}
+#address textarea {
+	margin-right: 55px;
+	float: right;
+	display: inline-block;
+	width: 185px;
+	height: 80px;
+}
+#address {
+	padding-bottom: 15px;
+	height: 80px;
+}
+form {
+	padding: 10px;
+	vertical-align: middle; 
+}
+
+form legend:not(.card-type-legend){
+	float:left;
+	font-family: Arial;
+	font-size: 15px;
+}
+form input:not(.card-type-input){
+	float:right;
+	margin-right: 50px;
+	width: 190px;
+	border-radius: 3px;
+	margin-top: -3px;
+}
+.card-type-legend {
+	font-family: Arial;
+	font-size: 15px;
+}
+.card-type-input {
+	margin-top: 10px;
+	margin-left: 30px;
+}
+#card-type p{
+	display: inline-block;
+	margin-bottom: 0px;
+}
+#card-type {
+	margin-bottom: 0;
+}
+#visa:before {
+	content: url("images/visa.png");\
+	padding: 0 10px;
+}
+#amex:before {
+	content: url("images/amex.png");\
+	padding: 0 10px;
+}
+#mastercard:before {
+	content: url("images/mastercard.png");\
+	padding: 0 10px;
+}
+#buy-it {
+	background-color: black;
+	color: white;
+	font-family: Arial;
+	font-size: 18px;
+	text-transform: uppercase;
+	width: 90px;
+	height: 30px;
+	border-radius: 30px;
+	border: none;
+	margin: 10px 155px;
+}
+#buy-it a{
+	text-decoration: none;
+	color: white;
+}
+#buy-it a:active{
+	color: #777;
+}

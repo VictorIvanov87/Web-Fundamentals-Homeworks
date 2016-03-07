@@ -1,0 +1,122 @@
+body {
+	font-family: "Trebuchet MS";
+}
+body>div {
+	width: 780px;
+	height:310px;
+	border-top: 8px dotted #ff0;
+	border-right: 8px solid #008000;
+	border-bottom: 8px solid #00f;
+	border-bottom-style: double;
+	border-left: 8px dashed #f00;
+	box-shadow: 20px 20px 20px #3f3f3f;
+}
+h1 {
+	text-transform: uppercase;
+	font-size: 52px;
+	text-align: center;
+	text-shadow: 20px 20px 20px #b9b9b9;
+}
+#rectangle{
+	width: 700px;
+	height:150px;
+	position: relative;
+	border: 3px solid #f00;
+	border-radius: 80px;
+	margin: 0 auto;
+}
+body>div>div>p {
+	font-size: 26px;
+	font-family: Arial;
+	text-align: center;
+	text-shadow: 12px 12px 12px #b9b9b9;
+}
+.left-no-button {
+	width: 240px;
+	height: 30px;
+	background-color: #d8921a;
+	border-style: outset;
+	border-color: #ffa500;
+	display: inline-block;
+	margin-left: 100px;
+	margin-top: 10px;
+}
+.right-no-button {
+	width: 240px;
+	height: 30px;
+	background-color: #d8921a;
+	border-style: outset;
+	border-color: #ffa500;
+	display: inline-block;
+	margin-right: 100px;
+	margin-top: 10px;
+}
+.left-no-button p, .right-no-button p{
+	text-align: center;
+	font-size: 22px;
+	margin: 3px auto;
+}
+#first-circle {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	background-color: rgba(168, 168, 168, 0.5);
+	border-radius: 50%;
+	border: none;
+	position: absolute;
+	left: 615px;
+	top: 205px;
+}
+#first-circle-inside {
+	width: 50%;
+	height: 50%;
+	background-color: rgba(168, 168, 168, 0.1);
+	border-radius: 50%;
+	border: 4px dashed #fff;
+	margin: 9px 9px;
+}
+#second-circle {
+	width: 80px;
+	height: 80px;
+	display: inline-block;
+	background-color: rgba(168, 168, 168, 0.5);
+	border-radius: 50%;
+	border: none;
+	position: absolute;
+	left: 660px;
+	top: 130px;
+}
+#second-circle-inside {
+	width: 50%;
+	height: 50%;
+	background-color: rgba(168, 168, 168, 0.1);
+	border-radius: 50%;
+	border: 4px dashed #fff;
+	margin: 15px 15px;
+}
+#third-circle {
+	width: 220px;
+	height: 120px;
+	display: inline-block;
+	background-color: rgba(168, 168, 168, 0.5);
+	border-radius: 120px;
+	border: none;
+	position: absolute;
+	left: 740px;
+	top: 50px;
+}
+#third-circle-inside {
+	width: 200px;
+	height: 100px;
+	background-color: rgba(168, 168, 168, 0.1);
+	border-radius: 100px;
+	border: 4px dashed #fff;
+	margin: 5px 5px;
+	display: inline-block;	
+	color: white;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 40px;
+	text-align: center;
+}
+
