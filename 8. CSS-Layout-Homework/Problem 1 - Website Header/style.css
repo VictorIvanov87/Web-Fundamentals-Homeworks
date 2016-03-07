@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+#wrapper {
+	width: 1212px;
+	height: 109px;
+	background-color: #234465;
+	color: #fff;
+	font-family: Verdana;
+	padding: 20px;
+	display: flex;
+	flex-flow: column wrap;
+	align-items: flex-end;
+	justify-content: space-around;
+}
+figure {
+	min-height: 57px;
+	margin: 35px;
+}
+#user-panel {
+	margin-right: 20px;
+	display: flex;
+	flex-flow: row wrap;
+}
+#user-panel ul li {
+	margin-top: 10px;
+	vertical-align: top;
+}
+#user-panel ul li:first-child {
+	margin-right: 0;
+}
+#user-panel ul li:nth-child(2) {
+	margin-left: 0;
+}
+ul {
+	list-style-type: none;
+}
+ul>li {
+	display: inline-block;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 0 18px;
+}
+ul li:hover {
+	background-color: #59d2ff;
+	box-shadow: 0 0 20px #59d2ff;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+.search-button {
+	border: 0;
+	border-left: 1px solid #d5d5d5;
+	width: 30px;
+	height: 30px;
+	vertical-align: top;
+	background: transparent;
+	background-image: url("images/search.png");
+	background-repeat: no-repeat;
+	background-position: 7px 7px;
+	margin-left: -15px;
+}
+.search-button:hover {
+	cursor: pointer;
+}
+#user-panel form{
+	background-color: #fff;
+	border-radius: 5px;
+	margin: auto;
+	width: 200px;
+}
+#user-panel form input {
+	background: transparent;
+	border: 0;
+	margin-top: 7px;
+	margin-left: 5px;
+	outline: 0;
+}
+nav ul ul {
+	display: none;
+}
+nav ul ul li {
+	display: block;
+}
+.after:after{
+	content: ;
+}

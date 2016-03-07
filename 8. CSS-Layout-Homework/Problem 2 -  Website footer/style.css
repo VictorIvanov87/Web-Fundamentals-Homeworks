@@ -1,0 +1,80 @@
+#wrapper {
+	width: 1120px;
+	height: 284px;
+	background-color: #234465;
+	padding: 35px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	font-family: Verdana;
+}
+section {
+	width: 210px;
+	height: 100%;
+	margin: 2px;
+}
+section ul li a {
+	text-decoration: none;
+	color: #fff;
+}
+section a {
+	text-decoration: none;
+}
+section a input:hover {
+	box-shadow: 0 0 10px  #ff9c00;
+	cursor: pointer;
+}
+section h3 {
+	text-align: left;
+	color: #ff9c00;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-bottom: 27px;
+}
+section ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+#wrapper section:nth-child(4) {
+	width: 250px;
+}
+section ul li {
+	text-decoration: none;
+	color: white;
+	margin-bottom: 10px;
+}
+section:first-child input[type="button"]{
+	width: 170px;
+	height: 40px;
+	color: #fff;
+	border-color: #ff9c00;
+	background-color: #234465;
+	font-size: 14px;
+	line-height: 0px;
+	display: block;
+	margin: 16px;
+	padding: 10px;
+}
+section:nth-child(4) ul li ul li {
+	display: inline-block;
+}
+section:nth-child(4) ul li ul li input {
+	width: 28px;
+	height: 28px;
+	border: 1px solid #afbfca;
+}
+#tweeter-icon {
+	background-image: url("images/tweeter.png");
+}
+#facebook-icon {
+	background-image: url("images/facebook.png");
+}
+#google-plus-icon {
+	background-image: url("images/google-plus.png");
+}
+.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+    width: 210px !important;
+	height: 252px !important;
+	overflow: visible !important;
+	background-color: #e9ecef;
+}
