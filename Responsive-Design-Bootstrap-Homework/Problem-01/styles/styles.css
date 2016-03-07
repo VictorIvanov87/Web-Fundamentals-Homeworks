@@ -1,0 +1,171 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #6698ff;
+	font-family: Arial;
+}
+#wrapper {
+	width: 50%;
+	margin: 0 auto;
+}
+	#wrapper>header{
+		margin-bottom: 30px;
+		width: 100%;
+	}
+	#wrapper>header h1{
+		border-bottom: 1px solid black;
+		padding-bottom: 30px;
+	}
+	#wrapper>header h1 a{
+		color: #fff;
+		text-decoration: none;
+	}
+	#wrapper>header h1 a img {
+		width: 30%
+	}
+	#wrapper header h1 a span {
+		width: 60%;
+	}
+	#wrapper>header nav {
+		margin-top: -25px;
+		float: right;
+	}
+	#wrapper>header nav ul {
+		list-style-type: none;
+	}
+			#wrapper>header nav ul li {
+				display: inline-block;
+				background-color: #fff;
+				width: 97px;
+				height: 25px;
+				border: 1px solid black;
+				margin: 10px;
+				text-align: center;
+				padding-top: 5px;
+			}
+				#wrapper>header nav ul li a {
+					color: #000;
+					text-decoration: none;
+				}
+#wrapper>section {
+	display: inline-block;
+	width: 73%;
+}
+#wrapper>section>article {
+	background-color: #e0eafe;
+	border: 1px solid black;
+	margin-top: 10px;
+	padding: 15px;
+}
+	#wrapper>section>article>header {
+		margin-bottom: 15px;
+	}
+	#wrapper>section>article>div>p {
+		margin-bottom: 15px;
+		text-indent: 25px;
+	}
+.news {
+	background-color: #e0eafe;
+	border: 1px solid black;
+	width: 18%;
+	float: right;
+	margin-top: 10px;
+	padding: 15px;
+	margin-left: 2%;
+}
+	.news div ul {
+		list-style-type: none;
+	}
+		.news div ul  li {
+			margin-bottom: 15px;
+		}
+			.news div ul li a {
+			color: #000;
+			text-decoration: none;
+		}
+#wrapper footer {
+	background-color: #e0eafe;
+	border: 1px solid black;
+	width: 100%;
+	margin-top: 10px;
+	text-align: center;
+	height: 50px;
+	line-height: 3;
+}
+	#wrapper footer h2 {
+		font-size: 18px;
+	}
+@media (max-width:960px) {
+	 #wrapper {
+		width: 95%;
+	}
+	#wrapper header {
+		width: 100%;
+	}
+	#wrapper header h1 a img {
+		width: 30%;
+	}
+	#wrapper header h1 a span {
+		width: 60%;
+	}
+	.news {
+		width: 20%;
+		margin: 10px 2px;
+	}
+	#wrapper footer {
+		width: 100%;
+	}
+}
+@media(max-width:780px) {
+	 #wrapper {
+		width: 95%;
+	}
+	#wrapper section {
+		display: block;
+		width: 100%;
+		margin: 0;
+	}	
+	#wrapper section article{
+		width: 95%;
+	}
+	.news {
+		display: block;
+		width: 95%;
+		margin: 10px auto;
+		float: left;
+	}
+	#wrapper footer {
+		display: block;
+		clear: both;
+		width: 100%;
+	}
+}
+@media(max-width: 640px) {
+	#wrapper header h1 a img {
+		display: block;
+		margin: 0 auto;
+		width: 80%;
+	}
+	#wrapper header h1 a span {
+		font-size: 1.8em;
+		text-align: center;
+		display: block;
+		margin: 0 auto;
+		width: 90%;
+	}
+	#wrapper>header nav {
+		display: block;
+		width: 95%;
+	}
+	#wrapper>header nav ul li {
+		display: block;
+		width: 95%;
+		margin: 0;
+	}
+	#wrapper section {
+		clear: both;
+		margin-top: 115px;
+	}
+}
